@@ -1,0 +1,80 @@
+body {
+    background-color: gainsboro;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    line-height: unset;
+}
+
+.container1 div{
+    background-color: teal;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+}
+
+.container2 div{
+    background-color: teal;
+    height: 50%;
+    width: 100px;
+    align-self: center;
+    font-size: 28px;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+}
+
+.container3 .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    height: 300px;
+}
+
+.container3 .menu div{
+    background-color: teal;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container3 .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+}
+
+.container3 .content div{
+    margin: 0 20px;
+}
+
+.container3 .content div img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.footer{
+    text-align: center;
+    background-color: teal;
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+}
